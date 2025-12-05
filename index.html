@@ -29,7 +29,7 @@
         }
 
         h2 {
-            margin-top: 30px;
+            margin-top: 25px;
         }
 
         .btn-pagar {
@@ -47,12 +47,6 @@
 
         .btn-pagar:hover {
             background: #b5903f;
-        }
-
-        ul {
-            text-align: left;
-            margin: 20px auto;
-            max-width: 420px;
         }
 
         .qr {
@@ -82,6 +76,35 @@
             color: #0066cc;
             text-decoration: underline;
         }
+
+        .bloque-confirmacion {
+            margin-top: 25px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+            font-size: 14px;
+            text-align: left;
+        }
+
+        .bloque-confirmacion p {
+            margin: 6px 0;
+        }
+
+        .btn-secundario {
+            display: inline-block;
+            background: #ffffff;
+            border: 2px solid #c9a24d;
+            padding: 10px 18px;
+            border-radius: 6px;
+            color: #c9a24d;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .btn-secundario:hover {
+            background: #c9a24d;
+            color: #ffffff;
+        }
     </style>
 </head>
 
@@ -92,22 +115,21 @@
         <h1>Amor de Regreso</h1>
 
         <p>
-            Accedé a la guía completa para reconectar desde la calma y el respeto,
-            con mensajes listos, plan de 7 días y señales reales para saber si es el momento correcto.
+            Accedé a la guía completa para reconectar desde la calma y el respeto:
+            mensajes listos, plan de 7 días y señales reales para saber si es el momento correcto.
         </p>
 
         <h2>💳 Acceso completo — 5 USDT</h2>
 
         <p><strong>Formas de pago:</strong></p>
-
-        <ul>
+        <ul style="text-align:left; max-width:420px; margin:0 auto 15px auto;">
             <li>🔶 Binance (USDT TRC20)</li>
             <li>💵 Astropay (Tarjeta / Transferencia)</li>
         </ul>
 
         <!-- ASTROPAY -->
-        <a class="btn-pagar" 
-           href="https://onetouch.astropay.com/payment?external_reference_id=Wr0BEPUMTQ9or5tWpn9eQx2nTBr03EvG" 
+        <a class="btn-pagar"
+           href="https://onetouch.astropay.com/payment?external_reference_id=Wr0BEPUMTQ9or5tWpn9eQx2nTBr03EvG"
            target="_blank">
            💳 Pagar con Astropay
         </a>
@@ -122,4 +144,35 @@
             TVWxxw1H9Xac3PaRbf1jb6gBefVRv5JWZj
         </p>
 
-        <p
+        <p class="nota">
+            ⚠️ Solo enviar USDT TRC20. No enviar NFT ni contratos inteligentes.
+        </p>
+
+        <!-- BLOQUE CONFIRMACIÓN POR CORREO -->
+        <div class="bloque-confirmacion">
+            <h3>🔐 Cómo recibir tu acceso</h3>
+            <p>1️⃣ Realizá el pago por Binance o Astropay.</p>
+            <p>2️⃣ Sacá una captura o descargá el comprobante.</p>
+            <p>3️⃣ Enviá el comprobante por correo a:</p>
+            <p><strong>marcaphilips@gmail.com</strong></p>
+            <p>En el asunto podés poner: <em>"Comprobante guía Amor de Regreso"</em>.</p>
+
+            <a
+              class="btn-secundario"
+              href="mailto:marcaphilips@gmail.com?subject=Comprobante%20gu%C3%ADa%20Amor%20de%20Regreso&body=Hola%2C%20ya%20realic%C3%A9%20el%20pago%20de%205%20USDT%20por%20la%20gu%C3%ADa.%20Adjunto%20el%20comprobante.">
+              📩 Enviar comprobante por correo
+            </a>
+        </div>
+
+        <!-- ACCESO A LA GUÍA (después de confirmar pago) -->
+        <p class="nota">
+            Una vez que envíes el comprobante y sea verificado, podrás acceder a la guía desde aquí:
+        </p>
+
+        <a class="acceso" href="guia.html">👉 Acceder a la guía (después de pagar)</a>
+
+    </div>
+
+</body>
+</html>
+
