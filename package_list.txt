@@ -1,0 +1,7 @@
+/mnt/data/amorderegreso_assets/logo.svg
+/mnt/data/amorderegreso_assets/hero_placeholder.jpg
+/mnt/data/amorderegreso_assets/qr_binance.png
+/mnt/data/amorderegreso_assets/qr_astropay.png
+/mnt/data/amorderegreso_assets/seo_homepage.html
+/mnt/data/amorderegreso_assets/marketing_copy.md
+/mnt/data/amorderegreso_assets/admin_panel.html
